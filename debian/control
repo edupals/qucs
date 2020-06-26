@@ -3,7 +3,7 @@ Section: x11
 Priority: optional
 Maintainer: Enrique Medina Gremaldos <quiqueiii@gmail.com>
 Uploaders: Enrique Medina Gremaldos <quiqueiii@gmail.com>
-Build-Depends: debhelper (>=10), cmake, extra-cmake-modules
+Build-Depends: debhelper (>=10), cmake, extra-cmake-modules, gperf, flex, bison, adms, libqt4-dev
 Standards-Version: 4.1.2
 
  
