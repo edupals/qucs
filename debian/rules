@@ -1,6 +1,5 @@
 #!/usr/bin/make -f 
+DEB_BUILD_OPTIONS=nocheck
 
 %:
-	dh $@
-
-
+	dh $@ --buildsystem=cmake
