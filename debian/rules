@@ -3,3 +3,8 @@ DEB_BUILD_OPTIONS=nocheck
 
 %:
 	dh $@ --buildsystem=cmake
+
+override_dh_update_autotools_config:
+	
+override_dh_autoreconf:
+	
